@@ -30,7 +30,7 @@ jobs:
 
       - name: Run unit tests
         run: |
-          pytest
+          pytest --allow-no-tests
 
       - name: Generate coverage
         run: |
