@@ -30,11 +30,11 @@ jobs:
 
       - name: Run unit tests
         run: |
-          python manage.py test
+          python src/manage.py test
 
       - name: Generate coverage
         run: |
-          coverage run manage.py test
+          coverage run src/manage.py test
 
       - name: Display the coverage report to console
         run: |
